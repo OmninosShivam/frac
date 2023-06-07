@@ -1,0 +1,1033 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none !important;
+  text-decoration: none !important;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* -------font-family-------- */
+body {
+  font-family: "poppins";
+}
+
+
+/* nav section css code */
+.headdlogo {
+  width: 90%;
+}
+
+div#navbarNav {
+  width: 107% !important;
+}
+
+.ritul-link {
+  font-weight: bolder;
+}
+
+.log_btn {
+  background: linear-gradient(106.59deg,
+      #f9bf4f 21.48%,
+      rgba(255, 255, 255, 0) 163.46%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.44));
+  border-radius: 6px;
+}
+
+.log_btn:hover {
+  transform: translateY(-20px);
+  transition: all 3s ease-in-out;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.Now {
+  width: 250px;
+  height: 72px;
+  background: linear-gradient(106.59deg,
+      #f9bf4f 21.48%,
+      rgba(255, 255, 255, 0) 163.46%);
+  box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.25);
+  filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.44));
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ritul-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2.5px;
+  background: #f9bf4f;
+  transition: width 0.2s;
+}
+
+.ritul-link:hover::after {
+  width: 100%;
+}
+
+
+/* hero section css code */
+.opacity {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+
+/* community section css code */
+.stad {
+  top: -6px;
+  left: -7px;
+}
+
+.see {
+  width: 95px;
+  height: 28px;
+  background: linear-gradient(106.59deg,
+      #f9bf4f 21.48%,
+      rgba(255, 255, 255, 0) 163.46%);
+  box-shadow: inset 0px 0px 6.69541px rgba(0, 0, 0, 0.25);
+  filter: drop-shadow(0px 0px 6.69541px rgba(0, 0, 0, 0.44));
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box_shadow {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+}
+
+.box_shadow:hover {
+  outline: 2px solid #f8bf4e;
+  transition: all 1s;
+  transform: scale(1.08);
+}
+
+/* footer section css code */
+
+.footer_bg {
+  background: url("../img/png/footer_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fotterbtnn {
+  background: #ffffff;
+  border: 1px solid #de3131;
+  border-radius: 10px;
+  width: 100% !important;
+  height: 52px;
+}
+
+.fotterbtnn input {
+  width: 72%;
+}
+
+  .bg_subb{
+  width: 100%;
+  height: 52px;
+  background: linear-gradient(106.59deg,
+      #f9bf4f 21.48%,
+      rgba(255, 255, 255, 0) 163.46%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fotterimagessss {
+  margin-top: -100px !important;
+  position: absolute;
+}
+
+@media only screen and (max-width: 576px) {
+
+  .headdlogo {
+    width: 220px;
+  }
+
+  .pl {
+    padding-left: 0px;
+  }
+
+  .fotterbtnn {
+    width: 250px !important;
+    margin: auto !important;
+    margin-top: 15px !important;
+  }
+
+  .bg_subb{
+    width: 250px !important;
+    margin: auto !important;
+    margin-top: 15px !important;
+  }
+}
+
+@media screen and (max-width:992px) {
+  .navbar-nav {
+    align-items: center !important;
+  }
+
+  .navbtnnn {
+    width: 30% !important;
+  }
+
+  .fotterimagessss {
+    margin-top: 20px !important;
+    position: absolute;
+  }
+  .fotterimagessss{
+    width: 85% !important;
+    text-align: center !important;
+  }
+  .rightttttt{
+    text-align: center !important;
+    padding-left: 20px !important;
+  }
+
+}
+
+
+.fotticonss {
+  height: 40px;
+  width: 40px;
+}
+
+
+/* Rent a home css */
+
+.rentinputt {
+  width: 100% !important;
+  height: 55px;
+  border: none;
+  outline: none;
+  background-color: #D9D9D9;
+  margin-top: 15px;
+  appearance: none;
+}
+
+
+
+
+
+
+
+/* News template css start   */
+
+ /* .newsnavtabsss {
+  width: 100% !important;
+} */
+
+.newsnavtabsss li {
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.699);
+  height: 70px;
+  /* font-weight: 700 !important; */
+  /* font-size: 19px; */
+}
+
+.newsnavtabsss li :visited {
+  margin: auto;
+
+}
+
+.newsslisstitm .active 
+{
+  background-color: #E2BC72 !important;
+  color: black !important;
+  
+}
+
+.nav-pills .ritul-link.active,
+.nav-pills .show>.ritul-link {
+  background-color: #E2BC72 !important;
+  color: black !important;
+}
+
+.newsnavtabsss li button {
+
+  letter-spacing: 3px;
+  color: white !important;
+  font-weight: 700 !important;
+  font-size: 19px;
+}
+
+ .newsslisstitm {
+  width: 33.3%;
+  border: 1px solid #E2BC72;
+}
+
+.newsslisstitm button {
+  width: 100%;
+  height: 100%;
+  border-radius: 0px !important;
+}
+
+.techchrunhimgg {
+  height: 140px;
+  background-image: url("https://evasofts.com/fracprop/assets/img/png/Rectangle286.png");
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.BusinessInsiderimgg {
+  height: 140px;
+  margin-top: 30px;
+  background-image: url("https://evasofts.com/fracprop/assets/img/png/Rectangle290.png");
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.newsssSPANNNNN {
+  background-color: #E2BC72;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+.newsrightpara {
+  margin-top: 90px;
+  font-size: larger;
+  font-weight: 600;
+  height: 340px;
+  overflow: auto;
+}
+
+.newsrightpara::-webkit-scrollbar {
+  display: none;
+}
+
+.btnzsd {
+  background-image: linear-gradient(to bottom right, #f8bc43 35%, #FFFFFF);
+  border: none;
+  padding: 10px 15px;
+  font-weight: 700;
+  border-radius: 10px;
+  box-shadow: -0px 0px 10px rgb(44, 44, 44);
+  margin-top: 30px;
+}
+@media screen and (max-width:550px) {
+  .newsnavtabsss li button{
+  font-weight: 700;
+  font-size: 15px;
+}
+}
+@media screen and (max-width:410px) {
+  .newsnavtabsss li button{
+  font-weight: 700;
+  font-size: 14px;
+}
+}
+@media screen and (max-width:375px) {
+  .newsnavtabsss li button{
+  font-weight: 600;
+  font-size: 12px;
+}
+}
+@media screen and (max-width:350px) {
+  .newsnavtabsss li button{
+  font-weight: 600;
+  font-size: 10px;
+}
+}
+
+
+
+
+/* listing auction css starts  */
+
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.amount {
+  padding-right: 18px;
+  text-align: center;
+  padding-top: 6px;
+
+}
+
+.pay {
+  font-weight: 700;
+  font-size: larger;
+
+}
+
+.inputbgclr {
+  outline: none !important;
+  border: none !important;
+  background-color: #D9D9D9 !important;
+  box-shadow: none !important;
+  height: 48px;
+  border-radius: 6px !important;
+}
+
+.select {
+  width: 35%;
+
+}
+
+.dropdown-toggle::after {
+  margin-left: 8.255em;
+}
+
+.drop {
+  padding-bottom: 100px;
+}
+
+.dropdown-menu {
+  width: 40%;
+}
+
+a.btn.btn-warning.btn1 {
+  padding: 4px 40px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 34px;
+}
+
+.btn1 {
+  width: 120px;
+  height: 40px;
+  margin-top: 4px;
+  padding-top: 8px !important;
+  box-shadow: -0px 0px 8px rgba(99, 99, 99, 0.692);
+  border: none !important;
+  font-weight: 600 !important;
+  background-image: linear-gradient(to bottom right, #f8bc43 35%, #FFFFFF);
+}
+
+.btn{
+  width: 120px;
+  height: 40px;
+  box-shadow: -0px 0px 8px rgba(99, 99, 99, 0.692);
+  border: none !important;
+  margin-top: 4px;
+  padding-top: 8px !important;
+  font-weight: 800 !important;
+  background-image: linear-gradient(to bottom right, #f8bc43 35%, #FFFFFF);
+}
+
+textarea:focus, .inputbgclr:focus{
+  outline: none;
+}
+
+input.btn , .btn1 {
+  padding: 3px 27px;
+  margin-left: 14px;
+}
+
+.pay_btn {
+  text-align: center;
+}
+
+.pay_btn a {
+  padding: 5px 46px;
+  font-size: 14px;
+
+}
+
+
+/* Portfolio 5 css starts  */
+
+
+.firstcont{
+  background-color: rgb(254, 235, 219);
+}
+.sec3{
+  justify-content: space-evenly;
+}
+
+.firstelem{
+  display: flex;
+  border: 1px solid black;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+.scale{
+  transition: 0.5s;
+}
+.scale:hover{
+  transform: scale(1.1);
+  border: 1px solid #E2BC72;
+}
+
+.icon1{
+  font-size: 30px;
+  color: #E2BC72;
+  border: 1px ;
+  background-color: #ddd7c9;
+  padding: 5px 15px;
+  border-radius: 80px;
+}
+
+.aaf{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon2{
+  font-size: 30px;
+  border: 1px ;
+  background-color: #ddd7c9;
+  padding: 15px 15px;
+  border-radius: 50px;
+}
+.AO{
+  /* width: 60% !important; */
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.icon3{
+  font-size: 80px;
+}
+.rental{
+  text-align: center;
+}
+
+.funds{
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.fi{
+  color: #E2BC72;
+  text-align: center;
+}
+.icon4{
+  font-size: 50px;
+}
+
+p{
+  margin-bottom: 0 !important;
+}
+
+.bgimg{
+  background-image: url("https://omninos.shop/fracprop/assets/img/png/mpRectangle6.png");
+  height: 220px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg2{
+  background-image: url("https://omninos.shop/fracprop/assets/img/png/mpRectangle49.png");
+  height: 220px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.offer{
+  width: 170px;
+  color: white;
+  border: 1px;
+  background-color: red;
+  text-align: center;
+  padding: 8px;
+  border-radius: 10px;
+  
+}
+.card{
+  box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.75);
+}
+
+.firstnavtabcontent{
+  border: none;
+  border-radius: 20px;
+}
+
+.bgco{
+  background-color: #F9F2E3;
+  border-radius: 10px;
+}
+.absoluteimg{
+  border: 10px solid white;
+  background-color: #F9F2E3;
+  border-radius: 50px;
+}
+
+.btn1{
+  padding: 8px 25px;
+  border-radius: 10px;
+  background-color: #E2BC72;
+  border: none;
+}
+
+
+.btn2{
+  padding: 8px 25px;
+  border-radius: 10px;
+  border: 1px solid #E2BC72;
+}
+
+
+
+
+/* Listing auction 2 css */
+
+.main {
+  text-align: center;
+}
+
+.main2 {
+  height: 250px;
+  margin-right: 20px;
+  background-image: url("https://evasofts.com/fracprop/assets/img/png/Rectangle263.png");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.main2 button {
+  height: 40px;
+  width: 150px;
+  font-size: 18px;
+  background-color: rgb(255, 128, 0);
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 180px;
+}
+
+.main3 {
+  height: 250px;
+  margin-right: 20px;
+  background-image: url("https://evasofts.com/fracprop/assets/img/png/Rectangle263.png");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.main3 button {
+  height: 40px;
+  width: 150px;
+  font-size: 18px;
+  background-color: rgb(255, 128, 0);
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 180px;
+}
+
+.main4 {
+  height: auto;
+  margin-right: 20px;
+  background-size: cover;
+  background-image: url("https://evasofts.com/fracprop/assets/img/png/Rectangle263.png");
+  border-radius: 10px;
+
+}
+
+.main4 button {
+  height: 40px;
+  width: 150px;
+  font-size: 18px;
+  background-color: rgb(255, 128, 0);
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 180px;
+  border: none;
+}
+
+
+.last1 button {
+  height: 40px;
+  width: 150px;
+  font-size: 18px;
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+  background-image: linear-gradient(to bottom right, #f8bc43 35%, #FFFFFF);
+  box-shadow: -0px 0px 8px rgba(99, 99, 99, 0.692);
+  border: none;
+}
+
+/* listing auction 3 css starts  */
+
+
+.auctionninputt {
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  background-color: #D9D9D9;
+  padding: 2px 15px;
+}
+
+.radioobtns {
+  background-color: #D9D9D9;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.radiooinput {
+  visibility: hidden;
+}
+
+.secondddboxx {
+  background-color: #d9d9d93f;
+  border: .8px solid #FAB62F;
+  border-radius: 8px;
+}
+
+.secondddboxx p {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.secondinputfiedss {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+.lasstttboxx {
+  background-color: #D9D9D9;
+  border-radius: 8px;
+  
+}
+
+.lasstttboxx p {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.proceedbtnn {
+  width: 20%;
+  height: 45px;
+  border: none;
+  background-image: linear-gradient(to bottom right, #f8bc43 35%, #FFFFFF);
+  box-shadow: -0px 0px 8px rgba(99, 99, 99, 0.692);
+  font-weight: 700;
+  font-size: large;
+  border-radius: 8px;
+}
+.bckgrndimggg{
+  background-image: url("https://evasofts.com/fracprop/assets/img/png/bgFrame.png");
+  background-size: cover;
+ }
+
+
+
+
+
+/* community css starts */
+
+ .bckgrndimg{
+  background-image: url("https://evasofts.com/fracprop/assets/img/png/bgFrame.png");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.164);
+ }
+
+.bg {
+  background-color: #e9e7de;
+  border-radius: 100%;
+  height: 200px !important;
+  width: 200px !important;
+}
+
+.br {
+  background-color: black;
+  height: 211px;
+  width: 211px !important;
+  border-radius: 100%;
+  background-image: linear-gradient(#f6b73c, #e6e5e5);
+  box-shadow: -0px 0px 10px rgba(99, 99, 99, 0.692);
+}
+
+
+
+
+
+/* blog section  css starts  */
+
+
+
+.blog{
+  text-align: center;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #e2bc72 !important;
+}
+.nav-pills .nav-link {
+  background: 0 0;
+  border: 1px solid #e2bc72 !important;
+  border-radius: 0 !important;
+  background-color: #212529 !important;
+  padding: 20px;
+}
+.clrwhite{
+  display: block;
+  padding: .5rem 1rem;
+  color: white !important;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: black !important;
+  font-weight: 500;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+  background-color: #e2bc72;
+}
+.title{
+  width: 50%;
+}
+.btn{
+  width: 50%;
+}
+.sp {
+  margin-left: 50px;
+  background-image:linear-gradient(to bottom right, #f9bf4f, #fff) !important;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  /* border: 0.1px solid  !important; */
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2) !important;
+  
+}
+#sp1{
+  margin-left: 90px;
+}
+.one .sp{
+  margin-left: 0px;
+}
+button{
+  border: none;
+}
+.sp a{
+  font-size: 12px;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  color: black;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0px;
+  overflow-wrap: break-word;
+  background-color: rgb(255, 255, 255);
+  background-clip: border-box;
+  border: none !important;
+  border-radius: 30px !important;
+}
+@media (max-width:992px){
+  .card-title, h5 {
+      font-size: 15px
+  }
+  .sp{
+      margin-left: 0px;
+  }
+  .sp a{
+      font-size: 10px;
+  }
+}
+@media (max-width:767px){
+  .sp{
+      margin-left: 60px;
+  }
+  .card-title, h5{
+      font-size: 20px;
+  }
+}
+@media (max-width:400px){
+  .sp{
+      margin-left: 10px;
+  }
+  .card-title, h5{
+      font-size: 15px;
+  }
+}
+
+
+
+
+
+/* browseproperties css starts  */
+
+
+
+/* browse section css code */
+.market_bg {
+  background: #000000;
+  opacity: 0.7;
+}
+
+/* multiple card section start */
+.form-select {
+  background-image: url("../img/svg/bottom-arrow.svg");
+}
+
+.orange_bg {
+  background-color: #fab62f;
+  border-radius: 5px;
+  position: relative;
+  top: -50px;
+  padding-top: 10px;
+}
+
+.dots h3::before {
+  content: " ";
+  position: absolute;
+  height: 6px;
+  width: 6px;
+  background-color: #ffffff;
+  margin-top: 6px;
+  left: 15px;
+  border-radius: 20px;
+}
+
+.see_bg {
+  background: linear-gradient(106.59deg,
+          #f9bf4f 21.48%,
+          rgba(255, 255, 255, 0) 163.46%);
+  box-shadow: inset 0px 0px 7.20935px rgba(0, 0, 0, 0.25);
+  filter: drop-shadow(0px 0px 7.20935px rgba(0, 0, 0, 0.44));
+  border-radius: 6px;
+  padding: 8px 22px;
+  margin-right: 20px;
+}
+
+/* currenty and closed section start  */
+.currenty_bg {
+  background: #fab62f;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98px;
+}
+
+.closed_bg {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98px;
+  border: 1px solid #000000;
+}
+
+.home_bg {
+  background: url("../img/png/cutehome.png");
+  width: 233px;
+  /* height: 205px;
+*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 60px 0px;
+}
+
+.cur_btn_bg {
+  background: #fab62f;
+  border-radius: 4.1806px;
+  width: 169px;
+  height: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.more_bg {
+  border: 1px solid #fab62f;
+  border-radius: 4.1806px;
+  width: 169px;
+  height: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.home_bg1 {
+  background: url("../img/png/cutehome2.png");
+  width: 233px;
+  /* height: 205px;
+*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0px;
+}
+
+/* terms and conditions css code */
+.term_bg {
+  background: rgba(239, 239, 239, 0.5);
+
+  padding: 20px 0px;
+}
+
+
+
+/* auctionDate css starts  */
+
+
+
+/* auction section css code */
+.auction_bg {
+  background: url("../img/png/adGroup384.png");
+  background-size: 100% 100%;
+  height: 322px;
+}
+.auction1_bg {
+  background: url("../img/png/anhome2.png");
+  background-size: 100% 100%;
+  height: 322px;
+}
+.auction2_bg {
+  background: url("../img/png/anhome3.png");
+  background-size: 100% 100%;
+  height: 322px;
+}
+.auction3_bg {
+  background: url("../img/png/anhome4.png");
+  background-size: 100% 100%;
+  height: 322px;
+}
+.march {
+  height: 39px;
+  background: #fab62f;
+  width: 169px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  top: 40%;
+  position: relative;
+  margin: 0 auto;
+}
